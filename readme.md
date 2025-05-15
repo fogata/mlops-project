@@ -99,6 +99,42 @@ Acesse em: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
+## 🌳 Estrutura de Branches
+
+Este projeto utiliza uma estratégia de versionamento baseada em Git com múltiplas branches:
+
+| Branch                   | Finalidade                                        |
+| ------------------------ | ------------------------------------------------- |
+| `main`                   | Código estável e pronto para produção             |
+| `dev`                    | Desenvolvimento contínuo (integração de features) |
+| `feature/train-pipeline` | Desenvolvimento da pipeline de treino             |
+| `feature/api`            | Desenvolvimento da API FastAPI                    |
+| `feature/monitoring`     | Integração de monitoramento e métricas            |
+| `feature/mlflow`         | Integração com MLflow                             |
+
+### Comandos para criação das branches
+
+```bash
+# Criar e subir branch de desenvolvimento
+git checkout -b dev
+git push -u origin dev
+
+# Criar branches de feature a partir de 'dev'
+git checkout -b feature/train-pipeline
+git push -u origin feature/train-pipeline
+
+git checkout -b feature/api
+git push -u origin feature/api
+
+git checkout -b feature/monitoring
+git push -u origin feature/monitoring
+
+git checkout -b feature/mlflow
+git push -u origin feature/mlflow
+```
+
+---
+
 ## 📝 Licença
 
 Este repositório é disponibilizado sob a licença **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
@@ -113,6 +149,8 @@ Este repositório é disponibilizado sob a licença **Creative Commons Attributi
 * Não utilizar para fins comerciais
 
 Detalhes completos: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
+
+[![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ---
 
