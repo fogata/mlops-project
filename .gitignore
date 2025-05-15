@@ -21,8 +21,9 @@ models/
 !models/.gitkeep
 
 # DVC
+!.dvc/
 .dvc/cache/
-*.dvc
+!*.dvc
 !.gitignore
 
 # Jupyter Notebooks
