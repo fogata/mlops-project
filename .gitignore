@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# VS Code config
+.vscode/
+
+# Data folders
+*.csv
+*.tsv
+*.log
+data/
+!data/.gitkeep
+models/
+!models/.gitkeep
+
+# DVC
+.dvc/cache/
+*.dvc
+!.gitignore
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db

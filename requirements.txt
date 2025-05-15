@@ -1,0 +1,15 @@
+# Machine Learning
+scikit-learn
+pandas
+numpy
+joblib
+
+# API
+fastapi
+uvicorn
+
+# Versionamento de dados e pipelines
+dvc          # Remova o [s3] se não for usar Amazon S3 (ex: use dvc[gdrive] ou apenas dvc)
+
+# Outros utilitários
+python-dotenv
