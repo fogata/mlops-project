@@ -1,5 +1,7 @@
 # Projeto MLOps - Pipeline Completo para Machine Learning
 
+[![CI](https://github.com/fogata/mlops-project/actions/workflows/ci.yml/badge.svg)](https://github.com/fogata/mlops-project/actions/workflows/ci.yml)
+
 ## 📌 Finalidade do Projeto
 
 Este projeto tem como objetivo demonstrar um fluxo moderno e profissional de MLOps (Machine Learning Operations), integrando boas práticas de engenharia de software, versionamento de dados, reprodutibilidade e automação de deploy para modelos de machine learning.
@@ -43,6 +45,9 @@ O foco é permitir que desenvolvedores e cientistas de dados implementem uma pip
 
 ```text
 mlops-project/
+├── .github
+|   ├── actions         
+|   └── workflow        # ci/cd
 ├── data/               # Dados versionados via DVC
 ├── notebooks/          # Prototipagem exploratória
 ├── src/
@@ -92,7 +97,7 @@ dvc repro
 5. Rode o servidor da API:
 
 ```bash
-uvicorn src.serving.main:app --reload
+uvicorn serving.main:app --reload
 ```
 
 Acesse em: [http://localhost:8000/docs](http://localhost:8000/docs)
