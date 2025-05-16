@@ -1,9 +1,11 @@
 import joblib
 import os
+from training.train import main as train_model_if_needed
 
 MODEL_PATH = os.path.join("models", "model.pkl")
 
 def load_model():
     if not os.path.exists(MODEL_PATH):
-        raise FileNotFoundError(f"Modelo não encontrado em {MODEL_PATH}. Rode o script de treinamento primeiro.")
+        print("Modelo não encontrado. Executando treinamento automático...")
+        train_model_if_needed()
     return joblib.load(MODEL_PATH)
