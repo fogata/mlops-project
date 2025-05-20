@@ -2,8 +2,6 @@
 
 🌐 This project is also available in: 🇧🇷 [Português](readme.pt.md)
 
-[![CI](https://github.com/fogata/mlops-project/actions/workflows/ci.yml/badge.svg)](https://github.com/fogata/mlops-project/actions/workflows/ci.yml)
-
 ## 📌 Project Overview
 
 This project demonstrates a modern and professional MLOps pipeline using cloud-native tools for model versioning, deployment, and monitoring.
