@@ -1,6 +1,5 @@
 # Projeto MLOps - Pipeline Completo para Machine Learning
 
-[![CI](https://github.com/fogata/mlops-project/actions/workflows/ci.yml/badge.svg)](https://github.com/fogata/mlops-project/actions/workflows/ci.yml)
 
 ## 📌 Finalidade do Projeto
 
